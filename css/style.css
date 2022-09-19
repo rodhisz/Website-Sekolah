@@ -160,3 +160,47 @@ header {
 }
 
 /* End Header */
+
+/* Start Features */
+
+.features__container {
+    display: grid;
+    grid-template-columns: 1fr,1fr;
+    align-items: center;
+}
+
+.features__left{
+    width: 85%;
+}
+
+.features__left img {
+    width: 80%;
+    height: auto;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+}
+
+.features__list{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.features__list p {
+    margin: 0;
+}
+
+.feature {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.feature-check {
+    background: var(--color-lightblue);
+    color: var(--color-primary);
+    padding: 0.2rem;
+    border-radius: 50%;
+}
