@@ -163,13 +163,17 @@ header {
 
 /* Start Features */
 
+.features {
+    margin-top: 5rem;
+}
+
 .features__container {
     display: grid;
-    grid-template-columns: 1fr,1fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
 }
 
-.features__left{
+.features__left {
     width: 85%;
 }
 
@@ -180,10 +184,11 @@ header {
     border-radius: 50%;
 }
 
-.features__list{
+.features__list {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+
     margin: 1rem 0;
 }
 
